@@ -1,7 +1,7 @@
 <template>
     <div class="main">
       <div class="head">
-        Portfolio
+        PORTFOLIO
       </div>
       <div class="prof">
         <div class="prof_in">
@@ -17,13 +17,16 @@
         </div>
 
       </div>
-      <div class="prof">
+      <div class="prof_text_box">
         <div class="prof_text">
-          主にバックエンドを中心に開発をしています。フロントもかけます。
+          主にバックエンドを中心に開発をしています。
+        </div>
+        <div class="prof_text">
+          フロントもかけます。
         </div>
       </div>
       <div class="works">
-        My Works
+        WORKS
       </div>
       <div class="contain">
         <div class="row">
@@ -261,6 +264,8 @@ export default {
     text-align: center;
     font-size: 30px;
     padding-top: 30px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1em
   }
   .prof{
     /*background-color: #2c3e50;*/
@@ -269,11 +274,13 @@ export default {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.05em
   }
   .prof_image{
     height: 180px;
     float: right;
-    padding-right: 30px;
+    padding-right: 5px;
   }
   .prof_in{
     width: 50%;
@@ -282,13 +289,19 @@ export default {
   }
   .prof_p{
     font-size: 16px;
-    padding-left: 30px;
+    padding-left: 5px;
+  }
+  .prof_text_box{
+    padding-top: 50px;
   }
   .prof_text{
     text-align: center;
+    font-family: 'Sawarabi Gothic', sans-serif;
     /*font-size: 2vh;*/
   }
   .works{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.1em;
     font-size: 30px;
     text-align: left;
     padding-top: 50px;
